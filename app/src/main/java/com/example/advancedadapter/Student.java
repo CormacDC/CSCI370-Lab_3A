@@ -6,13 +6,13 @@ public class Student {
     private String lastName;
     private String major;
 
-    private Student(){
+    public Student(){
         firstName = "N/A";
         lastName = "N/A";
         major = "N/A";
     }
 
-    private Student(String first, String last, String maj){
+    public Student(String first, String last, String maj){
         firstName = first;
         lastName = last;
         major = maj;
